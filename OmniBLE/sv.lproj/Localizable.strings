@@ -38,6 +38,9 @@
 /* Section header for activity section */
 "Activity" = "Aktivitet";
 
+/* Description for SilencePodPreference.enabled */
+"All Pod alerts use no beeps and confirmation reminder beeps are suppressed. The Pod will only beep for fatal Pod faults and when playing test beeps.\n\n⚠️Warning - If your phone is out of range of the pod while this feature is enabled, you will not receive any in-app notifications; and the pod will not beep to alert you." = "Alla Pod-varningar använder inga pip och aktivitetsbekräftelsepip tystas. Podden kommer endast att pipa vid allvarliga Pod-fel och när testpip spelas upp.\n\n⚠️Varning - Om din telefon är utom räckhåll för podden medan denna funktion är aktiverad, kommer du inte att få några appaviseringar; och podden kommer inte att pipa för att varna dig.";
+
 /* Description for auto-off alarm */
 "Auto-off alarm" = "Auto-av larm";
 
@@ -90,7 +93,16 @@
 
 /* navigation title for confidence reminders
    Text for confidence reminders navigation link */
-"Confidence Reminders" = "Aktivitetsbekräftelse";
+"Confidence Reminders" = "Aktivitetsbekräftelser";
+
+/* Help text for BeepPreferenceSelectionView */
+"Confidence reminders are beeps from the pod which can be used to acknowledge selected commands." = "Aktivitetsbekräftelser är ljudsignaler från podden som kan användas för att bekräfta valda kommandon.";
+
+/* Description for BeepPreference.manualCommands */
+"Confidence reminders will sound for commands you initiate, like bolus, cancel bolus, suspend, resume, save notification reminders, etc. When Loop automatically adjusts delivery, no confidence reminders are used." = "Aktivitetsbekräftelser kommer att ljuda för kommandon du initierar, som bolus, avbryt bolus, pausa, återuppta, spara påminnelseaviseringar, etc. När Loop automatiskt justerar insulintillförseln används inga bekräftelsepåminnelser.";
+
+/* Description for BeepPreference.extended (1: appName) */
+"Confidence reminders will sound when %1$@ automatically adjusts delivery as well as for commands you initiate." = "Bekräftelsepåminnelser kommer att ljuda när %1$@ automatiskt justerar insulintillförseln samt för kommandon du initierar.";
 
 /* Section header for configuration section */
 "Configuration" = "Konfiguration";
@@ -125,6 +137,9 @@
 /* description label for device name pod details row */
 "Device Name" = "Enhetsnamn";
 
+/* Title string for BeepPreference.silent */
+"Disabled" = "Av";
+
 /* No comment provided by engineer. */
 "Done" = "Klar";
 
@@ -149,6 +164,9 @@
 /* navigation bar title for expiration reminder
    Title for ExpirationReminderSetupView */
 "Expiration Reminder" = "Påminnelse om utgångsdatum";
+
+/* Title string for BeepPreference.extended */
+"Extended" = "Utökad";
 
 /* Alert title for resume error */
 "Failed to Resume Insulin Delivery" = "Misslyckades att återuppta insulintillförsel";
@@ -235,6 +253,9 @@
 /* Pod alert state when no alerts are active */
 "No alerts" = "Inga larm";
 
+/* Description for BeepPreference.silent */
+"No confidence reminders are used." = "Inga aktivitetsbekräftelser används.";
+
 /* Description for Fault Event Code .noFaults */
 "No faults" = "Inga fel";
 
@@ -260,6 +281,9 @@
 /* Delivery status when basal is running
    Pod state when running above fifty units */
 "Normal" = "Normal";
+
+/* Description for SilencePodPreference.disabled */
+"Normal operation mode where audible Pod beeps are used for all Pod alerts and when confidence reminders are enabled." = "Normalt driftläge där hörbara Pod-pip används för alla Pod-varningar och när aktivitetsbekräftelser är aktiverade.";
 
 /* navigation title for notification settings
    Text for pod details disclosure row */
@@ -419,6 +443,15 @@
 
 /* Format string for pod signal strength too high */
 "Signal strength too high" = "Signalstyrka för hög";
+
+/* Title string for SilencePodPreference.enabled */
+"Silenced" = "På";
+
+/* Text for silence pod navigation link */
+"Silence Pod" = "Tystad Pod";
+
+/* Help text for Silence Pod view */
+"Silence Pod mode suppresses all Pod alert and confirmation reminder beeping." = "Läget Tystad Pod undertrycker alla Pod-varningar och aktivitetsbekräftelsepip.";
 
 /* Title for suspend duration selection action sheet */
 "Suspend Delivery" = "Pausa insulintillförsel";
