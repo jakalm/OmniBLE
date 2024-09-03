@@ -16,6 +16,18 @@
 /* Accessibility format string for (1: localized volume)(2: time) */
 "%1$@ units remaining at %2$@" = "%1$@ enheter återstår kl. %2$@";
 
+/* Button text for 1 hour suspend duration */
+"1 hour" = "1 timme";
+
+/* Button text for 1 hour 30 minute suspend duration */
+"1 hour 30 minutes" = "1 timme 30 minuter";
+
+/* Button text for 2 hour suspend duration */
+"2 hours" = "2 timmar";
+
+/* Button text for 30 minute suspend duration */
+"30 minutes" = "30 minuter";
+
 /* Format string for activation time exceeded
    Pod state when activation not completed in the time allowed */
 "Activation time exceeded" = "Tid för aktivering överskriden";
@@ -76,6 +88,10 @@
 /* Status highlight that delivery is uncertain. */
 "Comms Issue" = "Kommandoproblem";
 
+/* navigation title for confidence reminders
+   Text for confidence reminders navigation link */
+"Confidence Reminders" = "Aktivitetsbekräftelse";
+
 /* Section header for configuration section */
 "Configuration" = "Konfiguration";
 
@@ -89,6 +105,12 @@
    Title of button to continue discard */
 "Continue" = "Fortsätt";
 
+/* Unit for singular day in pod life remaining */
+"day" = "dygn";
+
+/* Unit for plural days in pod life remaining */
+"days" = "dygn";
+
 /* Action button description for deactivate while pod still active
    Button text for deactivate pod button
    Button title to deactive pod on uncertain program
@@ -100,8 +122,11 @@
 /* Pod state when pod has been deactivated */
 "Deactivated" = "Inaktiverad";
 
+/* description label for device name pod details row */
+"Device Name" = "Enhetsnamn";
+
 /* No comment provided by engineer. */
-"Done" = "Färdig";
+"Done" = "Klar";
 
 /* Description for Empty reservoir pod fault */
 "Empty reservoir" = "Podfel, tom reservoarl";
@@ -140,6 +165,12 @@
 /* Accessibility format string for (1: localized volume)(2: time) */
 "Greater than %1$@ units remaining at %2$@" = "Fler än %1$@ enheter återstår kl. %2$@";
 
+/* Unit for singular hour in pod life remaining */
+"hour" = "timme";
+
+/* Unit for plural hours in pod life remaining */
+"hours" = "timmar";
+
 /* Pod inititialized */
 "Initialized" = "Pod initialiserad";
 
@@ -154,6 +185,12 @@
 
 /* Title of insulin delivery section */
 "Insulin Delivery" = "Insulin Delivery";
+
+/* Message for suspend duration selection action sheet */
+"Insulin delivery will be stopped until you resume manually. When would you like Loop to remind you to resume delivery?" = "Insulintillförseln kommer att stoppas tills du återupptar den manuellt. När vill du att Loop ska påminna dig om att återuppta tillförseln?";
+
+/* Header for insulin remaining on pod settings screen */
+"Insulin Remaining" = "Återstående insulin";
 
 /* Status highlight that insulin delivery was suspended. */
 "Insulin Suspended" = "Insulintillförsel pausad";
@@ -176,6 +213,12 @@
 
 /* Description for MessageError invalidCrc */
 "Invalid CRC" = "Ogiltigt CRC";
+
+/* description label for last status date pod details row */
+"Last Status" = "Senaste status";
+
+/* description label for lot number pod details row */
+"Lot Number" = "Partinummer";
 
 /* Pod state when running with fifty or less units */
 "Low reservoir" = "Låg reservoarvolym";
@@ -218,6 +261,10 @@
    Pod state when running above fifty units */
 "Normal" = "Normal";
 
+/* navigation title for notification settings
+   Text for pod details disclosure row */
+"Notification Settings" = "Notisinställningar";
+
 /* Description for MessageError notEnoughData */
 "Not enough data" = "Inte tillräckligt med data";
 
@@ -245,11 +292,18 @@
 /* Recover suggestion shown when no pod is paired */
 "Please pair a new pod" = "Var god parkoppla ny pod";
 
+/* description label for activated at timne pod details row
+   Label for pod insertion row */
+"Pod Activated" = "Pod aktiverad";
+
 /* Error message shown when user cannot pair because pod is already paired */
 "Pod already paired" = "Pod redan parkopplad";
 
 /* Error message shown when prime is attempted, but pod is already primed */
 "Pod already primed" = "Pod redan fylld";
+
+/* Title for pod details page */
+"Pod Details" = "Pod-information";
 
 /* Description for expiration advisory alarm */
 "Pod expiration advisory alarm" = "Larm för utgångsdatum för pod";
@@ -259,6 +313,12 @@
 
 /* Description for Pod expired pod fault */
 "Pod expired" = "Pod har utgått";
+
+/* Label for pod expiration row */
+"Pod Expires" = "Pod går ut";
+
+/* Label for pod life state when time remaining */
+"Pod expires in" = "Pod går ut om";
 
 /* Alert content title for podExpireImminent pod alert
    Alert content title for podExpiring pod alert
@@ -289,12 +349,21 @@
 /* Format string for poor pod signal strength */
 "Poor signal strength" = "Dålig signalstyrka";
 
+/* title for previous pod page */
+"Previous Pod" = "Föregående Pod";
+
+/* Text for previous pod details row */
+"Previous Pod Details" = "Föregående Pod-information";
+
 /* Delivery status when pod is priming
    Pod status when priming */
 "Priming" = "Pod fylls på";
 
 /* Pod state when priming completed */
 "Priming completed" = "Podd har fyllts färdigt med insulin";
+
+/* Label text for basal rate summary */
+"Rate" = "Basal";
 
 /* Pod state when ready for basal programming */
 "Ready for basal programming" = "Klar för programmering av basal";
@@ -332,9 +401,18 @@
 /* Title text for insulin type confirmation page */
 "Select the type of insulin that you will be using in this pod." = "Välj vilken typ av insulin du kommer att använda.";
 
+/* description label for sequence number pod details row */
+"Sequence Number" = "Sekvensnummer";
+
 /* Title for setup complete screen
    Title of SetupCompleteView */
 "Setup Complete" = "Inställning klar";
+
+/* Button text for setting manual temporary basal rate */
+"Set Temporary Basal" = "Ställ in temporär basal";
+
+/* Button title to set temporary basal rate */
+"Set Temporary Basal Rate" = "Ställ in temporär basal";
 
 /* Description for shutdown imminent alarm */
 "Shutdown imminent alarm" = "Larm för omedelbar avstängning";
@@ -350,6 +428,9 @@
 
 /* Delivery status when insulin delivery is suspended */
 "Suspended" = "Pausad";
+
+/* Text for suspend resume button when insulin delivery active */
+"Suspend Insulin Delivery" = "Pausa insulintillförsel";
 
 /* Pod tank fill completed */
 "Tank fill completed" = "Pod har fyllts klart";
@@ -369,6 +450,9 @@
 /* The format string describing a temp basal. (1: The rate)(2: Start time)(3: duration)(4: volume)(5: scheduled certainty */
 "TempBasal: %1$@ U/hour %2$@ %3$@ %4$@ U %5$@" = "TempBasal: %1$@ E/timme %2$@ %3$@ %4$@ E %5$@";
 
+/* Navigation Title for ManualTempBasalEntryView */
+"Temporary Basal" = "Temporär basal";
+
 /* Pod state threeNotUsed */
 "threeNotUsed" = "threeNotUsed";
 
@@ -379,6 +463,9 @@
 
 /* The format string for pod expiration notification body (1: time until expiration) */
 "Time to replace your pod! Your pod will expire in %1$@" = "Byt din pod! Din pod går ut om %1$@";
+
+/* description label for total delivery pod details row */
+"Total Delivery" = "Total insulintillförsel";
 
 /* Recovery suggestion when ack received instead of response
    recoverySuggestion for BluetoothManagerError.bluetoothNotAvailable(.resetting) */
@@ -410,6 +497,9 @@
 
 /* Format string for description of MessageError validationFailed. (1: description of validation failure) */
 "Validation failed: %1$@" = "Validering misslyckades: %1$@";
+
+/* Description text on manual temp basal action sheet */
+"Your insulin delivery will not be automatically adjusted until the temporary basal rate finishes or is canceled." = "Din insulintillförsel kommer inte att justeras automatiskt förrän den tillfälliga basaldosen avslutas eller avbryts.";
 
 /* Recovery suggestion when operation could not be completed due to existing bolus in progress */
 "Wait for existing bolus to finish, or cancel bolus" = "Vänta på att pågående bolus är färdig, eller avbryt bolus";
