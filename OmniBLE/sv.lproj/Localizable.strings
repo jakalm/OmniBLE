@@ -65,7 +65,7 @@
 "%@U" = "%@E";
 
 /* Summary string for temporary basal rate configuration page */
-"%1$@ for %2$@" = "%1$@ for %2$@";
+"%1$@ for %2$@" = "%1$@ i %2$@";
 
 /* Format string for main text of delivery uncertainty recovery page. (1: app name)(2: date of command)(3: app name) */
 "%1$@ has been unable to communicate with the pod on your body since %2$@.\n\nDo not Discard the Pod without scrolling to read this entire screen.\n\nCommunication was interrupted at a critical time. Information about active insulin / pod temp basal rate is uncertain.\n\nYou can toggle phone Bluetooth off and on or quit and restart the app. (Wait up to 30 seconds for recovery.)\n\nIf you decide to give up because communication cannot be restored, tap the Discard Pod button, follow the steps and start a new pod.\nMonitor your glucose closely for the next 6 hours, as there may or may not be insulin actively working in your body that %3$@ cannot display." = "%1$@ har inte kunnat kommunicera med Poden på din kropp sedan %2$@.\n\nKassera inte Poden utan att först skrolla och läsa hela denna skärm.\n\nKommunikationen avbröts vid en kritisk tidpunkt. Information om aktivt insulin / Podens temporära basal är osäker.\n\nDu kan stänga av och på telefonens Bluetooth eller avsluta och starta om appen. (Vänta upp till 30 sekunder för återanslutning.)\n\nOm du bestämmer dig för att ge upp eftersom kommunikationen inte kan återställas, tryck på knappen Byt Pod, följ stegen och starta en ny Pod.\nÖvervaka ditt blodsocker noggrant under de kommande 6 timmarna, eftersom det kan finnas eller inte finnas insulin som aktivt verkar i din kropp som %3$@ inte kan visa.";
